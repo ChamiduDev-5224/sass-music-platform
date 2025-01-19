@@ -170,16 +170,16 @@ export default function Home() {
         })}
       </ul>
         
-        <div className="my-auto mx-auto mt-8">
+        <div className="my-auto mx-auto mt-8 mb-4">
         <HoverBorderGradient>
           <div className="flex flex-row items-center gap-1">
           <GiShoppingCart />
           Purchase
           </div>
         </HoverBorderGradient>
-
         </div>
-              
+        <span>{vl.price}</span>
+
     </CardSpotlight>
     )
     })}
